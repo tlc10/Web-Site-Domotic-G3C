@@ -1,0 +1,34 @@
+document.getElementById("cercle1").style.backgroundColor="darkOrange";
+document.getElementById("img1").style.visibility="orange";
+document.getElementById("img3").style.visibility="hidden";
+document.getElementById("img2").style.visibility="hidden";
+var test2=1
+window.setTimeout(couleur,2000);
+function couleur(){
+	if(test2==0){
+		document.getElementById("img3").style.visibility="hidden";
+		document.getElementById("cercle1").style.backgroundColor="darkOrange";
+		document.getElementById("cercle3").style.backgroundColor="transparent";
+		document.getElementById("img1").style.visibility="visible";					
+		test2=1;
+		window.setTimeout(couleur,2000);
+	}
+	else{
+		if(test2==1){
+			document.getElementById("img1").style.visibility="hidden";
+			document.getElementById("cercle1").style.backgroundColor="transparent";
+			document.getElementById("cercle2").style.backgroundColor="darkOrange";
+			document.getElementById("img2").style.visibility="visible";
+			test2=2;
+			window.setTimeout(couleur,2000);
+		}
+		else{
+			document.getElementById("img2").style.visibility="hidden";
+			document.getElementById("cercle3").style.backgroundColor="darkOrange";
+			document.getElementById("cercle2").style.backgroundColor="transparent";
+			document.getElementById("img3").style.visibility="visible";
+			test2=0;
+			window.setTimeout(couleur,2000);
+		}
+	}
+}
