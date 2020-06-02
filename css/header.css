@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+	margin: 0;
+	padding: 0;
+	user-select: none;
+	font-family: "Jaldi", sans-serif;
+
+}
+/**HEADER**/
+
+.container nav.ordinateur,
+.container nav.mobile{
+	width: 100%;
+	background: rgb(0, 0, 52);
+	height: 60px;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 20;
+}
+
+nav.ordinateur ul{
+	list-style: none;
+	width: 95%;
+	height: 60px;
+	margin: 0 auto;
+
+}
+
+nav.ordinateur ul li{
+	width: 15%;
+	float: left;
+	text-align: center;
+	line-height: 60px;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: all 0.5s ease;
+}
+
+nav ul li:hover{
+	background: #2461FF;
+}
+
+nav ul li.active{
+	background: #2461FF;
+}
+
+nav ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+nav.mobile, 
+.bar-btn{
+	display: none;
+}
+
+.logo {
+	float: left;
+	margin-left: 20px;
+	margin-right: 50px;
+	width: 150px;
+	height: 50px;
+}
+
+
+@media screen and (max-width: 1100px){ /**Lorsque l'écran est < 700px faire...**/
+	
+	nav.ordinateur{
+		display: none;
+	}
+
+	nav.mobile,
+	.bar-btn{
+		display: block;
+	}
+
+	.bar-btn{
+		position: relative;
+	}
+
+	.bar-btn .menu,
+	.bar-btn .close{
+		position: fixed;
+		right: 25px;
+		top: 15px;
+		font-size: 35px;
+		color: #fff;
+		cursor: pointer;
+	}
+
+	.mobile ul{
+		margin-top: :60px;
+		background: rgb(0, 0, 52);
+		display: none;
+
+	}
+
+	.mobile li{
+		text-transform: uppercase;
+		text-align: center;
+		padding: 20px;
+		cursor: pointer;
+	}
+
+	.mobile ul.active{
+		display: block;
+	}
+
+	.container, .container2{
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.container{
+		margin-bottom: -40px;
+	}
+
+	.block1, .block2, .block3, .block4, .block5, .block6{
+		margin: 10px;
+	}
+}

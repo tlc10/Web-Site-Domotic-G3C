@@ -1,0 +1,15 @@
+.title{
+	margin-top: 75px;
+	text-align: center;
+}
+
+.sous_titre{
+	text-align: center;
+}
+
+.cpassword{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+

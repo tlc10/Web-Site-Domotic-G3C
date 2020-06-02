@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+	margin: 0;
+	padding: 0;
+	user-select: none;
+
+}
+
+body{
+	font-family: "Roboto", sans-serif;
+	text-align: center;
+	background-color: #99ccff;
+	width: 100%;
+	margin-top: 80px;
+}
+.house_data
+{
+	align-content: center;
+	margin-top: 80px;
+	text-align:center;
+}
+.MAISON h1
+{
+	color: black;
+	margin-top: 20px;
+	font-size: 2.0rem;
+	text-align: center
+}
+.house_data ul
+{
+	list-style-type: none;
+}
+
+.house_data li
+{
+	margin-top: 30px;
+}
+.footer
+{
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+}

@@ -1,0 +1,17 @@
+body{
+	text-align: center;
+	margin-top: 120px;
+}
+
+.client{
+	margin-top: 20px;
+}
+
+.information{
+	margin-top: 20px;
+	height: 30vh;
+}
+
+.information h4{
+	margin-top: 20px;
+}

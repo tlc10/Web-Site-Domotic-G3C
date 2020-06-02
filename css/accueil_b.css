@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Jaldi');
+
+*{
+	margin: 0;
+	padding: 0;
+	user-select: none;
+
+}
+
+body{
+	font-family: "Jaldi", sans-serif;
+	font-size: 19px;
+	margin:0;
+	width:99%;
+	background-color: #99ccff;
+	color: black;
+
+}
+
+
+.imagefond{
+	background:url("../images/architectural-design-architecture-beach-453201.jpg") no-repeat center fixed;
+	background-size: cover;
+	height: 100vh;
+	width:101%;
+}
+
+.entreprise{
+	width: 101%;
+	padding-bottom: 100px;
+	background-color: #001a33;
+	color: white;
+}
+
+.entreprise h3{
+	text-align: center;
+	padding-top: 30px;
+	font-size: 30px;
+}
+
+.test1{
+	display: flex;
+	justify-content:space-between;
+	margin-top: 5%;
+	width:100%;
+}
+
+.test1 p{
+	width:50%;
+	margin-right: 15px;
+	margin-left: 100px;
+}
+
+#cercle1,#cercle2,#cercle3{
+	width:10px;
+	height:10px;
+	border: 1px darkorange solid;
+	border-radius: 50%;
+	margin-left: 10px;
+	z-index: 30;
+}
+.cercleimage{
+	display: flex;
+	justify-content:center;
+	margin-left: 65px;
+	margin-top: 60%;
+	z-index: 0;
+}
+/*Fin Section*/
+
+/*Footer*/
+.footer_container{
+	display: flex;
+	background-color: rgb(0, 0, 52); 
+	width: 101%;
+	height: 180px;
+	justify-content: space-around;
+	line-height: 20px;
+}
+
+.footer_menu{
+	height: 150px;
+	color: white;
+
+}
+
+.footer_menu ul{
+	padding-top: 20px;
+	text-align: center;
+	list-style: none;
+}
+
+.footer_menu li{
+	padding-top: 5px;
+	padding-left: 20px;
+}
+
+.footer_menu a{
+	color: white;
+	text-decoration: none;
+}
+
+.footer_icons{
+	color: white;
+}
+
+.fb_icon{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-right: 50px;
+}
+
+.insta_icon{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-right: 50px;
+}
+
+.twitter_icon{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.footer_copyright{
+	color: white;
+	padding-top: 120px;
+}
+/*Fin Footer*/
+
+.test1 img{
+	width:40%;
+	height: auto;
+	position: absolute;
+	margin-left: 25px;
+	z-index: 25;
+}
+
+.tes{
+	width:40%;
+}
+
+.bulles{
+	display: flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+	width:100%;
+	margin-bottom: 50px;
+}
+
+.bulles p{
+	border: 2px black solid;
+	border-radius: 50%;
+	width:150px;
+	height:150px;
+	text-align: center;
+	line-height: 150px;
+	margin-top: 50px;
+	margin-left: 20px;
+	margin-right: 20px;
+	transition:0.8s;
+}
+
+.environnement:hover{
+	background-image: url("../images/environnement.jpg");
+
+}
+
+.confort:hover{
+	background-image: url("../images/confort.jpg");
+	background-size: 150%;
+	background-position: center;
+
+}
+
+.securite:hover{
+	background-image: url("../images/securite.jpg");
+	background-size: 180%;
+	background-position: center;
+
+}
+
+.assistance:hover{
+	background-image: url("../images/assistance.jpg");
+	background-size: 150%;
+
+}
+
+.proposition{
+	margin-left: 10px;
+	margin-top: 30px;
+	text-align: center;
+	margin-bottom: 80px;
+
+}
+
+.proposition h3{
+	font-size: 30px;
+	text-align: center;
+}
+
+.bulles p:hover{
+	line-height: 200px;
+	margin-top: -1px;
+	width:200px;
+	height: 200px;
+	transition:0.8s;
+}
+
+
+.entreprise p{
+	margin-bottom: 150px;
+}
+

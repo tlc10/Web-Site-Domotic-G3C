@@ -1,0 +1,36 @@
+body
+{
+	font-family: "Roboto", sans-serif;
+	text-align: center;
+	background-color: white;
+	width: 100%;	
+}
+h1
+{
+	margin-top: 70px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.createTopic
+{
+	padding-top: 40px;
+	display: flex;
+	justify-content: center;
+}
+table
+{
+	display: inline-block;
+    border-collapse: collapse;
+}
+table a
+{
+	text-decoration: none;
+}
+td, th 
+{
+    padding-bottom: 13px;
+    padding-top: 13px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 1px solid black;
+}
